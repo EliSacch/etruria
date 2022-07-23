@@ -1,108 +1,140 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Etruria Winery
 
-Welcome USER_NAME,
+Etruria is a family run winery, situated in Tuscany, the hearth of the lands once known as "Etruria".
+The purpose of this website it to tell the story of the family, and to present their products, result of a great history. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+The website will be targeted toward wine lovers, and it will be useful to know more, not only about the products, but also about the tasting experiences offered by the family. 
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+![Responsice Mockup] Available when the project will be completed
 
-## Gitpod Reminders
+## Features 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+There will be three pages: Home page, Products and Visit.
+In each page we will have a responsive navbar on top, for navigation, and a footer with contact information and social media links.
 
-`python3 -m http.server`
+### Home Page
 
-A blue button should appear to click: _Make Public_,
+- __landing page image__
 
-Another blue button should appear to click: _Open Browser_.
+  - This is the landing page for our users, so it will have an animated hero image to grab their attention.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- __The Family__
 
-A blue button should appear to click: _Make Public_,
+  - The family section includes a photograph of the family, and a brief introduction to their story, and how they built the Winery as we know it today.
 
-Another blue button should appear to click: _Open Browser_.
+![Landing Page] N/A
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- __The vineyard__
 
-To log into the Heroku toolbelt CLI:
+  - This section will contain an overview of the vineyard, the terroir and it will explain the different varieties of grapes.
+  - There will be a picture of the vineyard.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### Products
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+  - This page will introduces the wines produced by Etruria.
 
-------
+- __Secondary Navigation Bar__
 
-## Release History
+  - This second navigation will be a list of the products. 
+  - It will allow users to reach the section dedicated to each label without having to scroll all the way down.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+![Products_page] N/A
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+- __Wine section__ 
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+  - There will be one section for each product.
+  - It will contain one real image of the bottle, a brief description and the organoleptic test, alcohol content and serving temperature.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+### Visit
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+  - This section will offer an overview of the tasting experiences available, and what they include.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+- __Experiences overview__ 
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+  - This section is valuable to the user as they will be able to easily identify the types of experiences available, the duration and what they include. 
+  - There will be three different experiences, and they will be presented as three cards, each one with a dark image as backround, and light text.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+- __Price table__ 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+- This table will provide details of the prices, based on the experience type / number of people.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+- __The Booking form__
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+  - This section will contain a form to book the experience.
+  - The following information will be required: Name, email, number of people, experience type, time, additional information, submit button.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Features Left to Implement
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+- CSS animations after the base structure is in place.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+## Testing - to be completed later
 
-------
+In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
 
-## FAQ about the uptime script
+In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
-**Why have you added this script?**
+You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
-**How will this affect me?**
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+### Validator Testing - to be completed later
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+### Unfixed Bugs - to be completed later
 
-**So….?**
+You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+## Deployment - to be completed later
 
-**Can I opt out?**
+This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+The live link can be found here - 
 
-**Anything more?**
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+## Credits - to be completed later
 
----
+In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
 
-Happy coding!
+You can break the credits section up into Content and Media, depending on what you have included in your project. 
+
+### Content - to be completed later
+
+- The text for the Home page was taken from Wikipedia Article A
+- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+
+### Media - to be completed later
+
+- The photos used on the home and sign up page are from This Open Source site
+- The images used for the gallery page were taken from this other open source site
+
+
+Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
+
+## Other General Project Advice - to be completed later
+
+Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
+
+- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
+  - Make sure to keep the messages in the imperative mood 
+
+- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
+  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
+
+- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
+  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
+  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
+  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
+
+Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
