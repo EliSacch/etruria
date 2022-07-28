@@ -6,6 +6,7 @@
     --sans-font: 'Montserrat', sans-serif;
 
     --primary-color: rgb(75, 75, 75);
+    --secondary-color: rgb(210, 221, 231);
 }  
     
 * {
@@ -26,19 +27,21 @@ body a {
     color: inherit;
 }
 
+/* header */
+
 header {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 0 1em;
+    padding: 0 2em;
     background-color: var(--primary-color);
-    color:aliceblue;
+    color: var(--secondary-color);
 }
 
 #logo {
     font-family: var(--logo-font);
     font-size: 1.3em;
-    padding: .5em;
+    padding: .5em 0;
 }
 
 
@@ -55,5 +58,43 @@ header {
 }
 
 #nav li {
-    padding-left: .5em;
+    padding-left: .8em;
 }
+
+/* content */
+
+content {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 1.3em; 
+}
+
+
+section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    grid-gap: 2em;
+    padding: 1.5em 0;
+    align-items: center;
+    width: fit-content;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+section > div {
+    width: fit-content;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+section h1 {
+    margin-bottom: 1em;
+}
+
+section img {
+    overflow: hidden;
+    width: 100%;
+    min-width: 400px;
+    max-width: 700px;
+}
+
