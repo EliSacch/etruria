@@ -116,11 +116,12 @@ You can break the credits section up into Content and Media, depending on what y
 
 ### Media - to be completed later
 
-- The photos used on the home and sign up page are from This Open Source site
+- The photos used on the home are from [Unsplash](https://unsplash.com/)
+  - Family members portrait photo by [Omar Lopez](https://unsplash.com/@omarlopez1?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+  - Vineyard photo by [Rudolf-Peter Bakker](https://unsplash.com/@rudolf_peter_bakker?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 - The images used for the gallery page were taken from this other open source site
 
 
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
 
 ## Other General Project Advice - to be completed later
 
