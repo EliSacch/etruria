@@ -102,11 +102,7 @@ This section should describe the process you went through to deploy the project 
 The live link can be found here - 
 
 
-## Credits - to be completed later
-
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
+## Credits 
 
 ### Content - to be completed later
 
@@ -114,8 +110,13 @@ You can break the credits section up into Content and Media, depending on what y
 - Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
-### Media - to be completed later
+### Media
 
+- The following fonts, used for the project, are from [Google Fonts](https://fonts.google.com/):
+  - Montserrat
+  - Poiret one
+  - Cormorant Garamond
+- The icons are from [Fontawesome](https://fontawesome.com/)
 - The photos used on the home are from [Unsplash](https://unsplash.com/)
   - Family members portrait photo by [Omar Lopez](https://unsplash.com/@omarlopez1?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
   - Vineyard photo by [Rudolf-Peter Bakker](https://unsplash.com/@rudolf_peter_bakker?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)

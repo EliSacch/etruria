@@ -14,6 +14,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    list-style: none;
 }
 
 body {
@@ -28,15 +29,23 @@ body a {
     color: inherit;
 }
 
+body a:hover {
+    color: var(--darker-secondary-color);
+}
+
 /* header */
 
-header {
+header, footer{
     width: 100%;
     display: flex;
-    justify-content: space-between;
     padding: 0 2em;
     background-color: var(--primary-color);
     color: var(--secondary-color);
+}
+
+header {
+    justify-content: space-between;
+    position: fixed;
 }
 
 #logo {
@@ -55,7 +64,6 @@ header {
 #nav ul {
     display: flex;
     align-content: center;
-    list-style: none;
 }
 
 #nav li {
@@ -72,6 +80,7 @@ header {
 content {
     width: 100%;
     margin: 0 auto;
+    margin-top: 70px;
     font-size: 1.3em; 
 }
 
@@ -80,7 +89,7 @@ section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
     grid-gap: 2em;
-    padding: 1.5em 0;
+    padding: 2em 0;
     align-items: center;
     width: fit-content;
     max-width: 90%;
@@ -104,4 +113,44 @@ section img {
     min-width: 400px;
     max-width: 700px;
 }
+
+/* footer */
+
+footer {
+    justify-content: space-around;
+}
+
+footer > div {
+    width: 33%;
+    max-width: 400px;
+    padding: 2em 1em;
+    height: 300px; 
+    overflow: hidden;
+
+    text-align: center;
+    font-family: var(--sans-font);
+    font-size: 1.5em;
+}
+
+#map img {
+    width: 100%;
+}
+
+#contact, #social {
+    height: fit-content;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#social {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+#social i {
+    font-size: 2em;    
+}
+
 
