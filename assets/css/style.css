@@ -7,7 +7,7 @@
 
     --primary-color: rgb(75, 75, 75);
     --secondary-color: rgb(220, 227, 241);
-    --darker-secondary-color: rgba(210, 221, 231, 0.7);
+    --darker-secondary-color: rgba(210, 221, 231, 0.8);
 }  
     
 * {
@@ -154,7 +154,57 @@ section img {
     margin: .5em 0;
 }
 
+/* visit page */
 
+#experiences {
+    max-width:1200px;
+    display: flex;
+    gap: 2px;
+}
+
+#experiences h1 {
+    font-family: var(--logo-font);
+}
+
+#experiences > card {
+    color: var(--secondary-color);
+    width: 33%;
+    margin: 0 auto;
+    height: 400px;
+    --size: 500px;
+
+    background: 
+    var(--primary-color)
+    var(--url)
+    var(--position) / var(--size)
+    no-repeat;
+}
+
+#barrel-tour {
+    --url: url(../images/barrel.jpg);
+    --position: top left;
+    --size: 400px;
+}
+
+#wine-tasting {
+    --url: url(../images/tasting.jpg);
+    --position: center;
+}
+#vineyard-tour {
+    --url: url(../images/vineyard.jpg);
+    --position: top right;
+}
+
+.card-content {
+    background-color: rgba(0, 0, 0, 0.7);
+    width:100%;
+    height: 100%;
+    padding: 1em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
 
 /* footer */
 
@@ -219,5 +269,14 @@ footer > div {
 
     footer > div {
         width: 100%;
+    }
+
+    #experiences {
+       flex-direction: column;
+    }
+    #experiences > card {
+        width: 90%;
+        --size: cover;
+        --position: center;
     }
 }
