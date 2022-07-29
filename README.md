@@ -120,7 +120,10 @@ The live link can be found here -
 - The photos used on the home are from [Unsplash](https://unsplash.com/)
   - Family members portrait photo by [Omar Lopez](https://unsplash.com/@omarlopez1?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
   - Vineyard photo by [Rudolf-Peter Bakker](https://unsplash.com/@rudolf_peter_bakker?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
-- The images used for the gallery page were taken from this other open source site
+  - Black wine bottle with black label [No Revisions](https://unsplash.com/@norevisions?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+  - Black wine bottle with white label [Ralph Darabos](https://unsplash.com/@darabosralph?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+  - Clear whine bottle with rose wine [Cody Chan](https://unsplash.com/@cceee?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
 
 
 

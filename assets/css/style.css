@@ -6,7 +6,7 @@
     --sans-font: 'Montserrat', sans-serif;
 
     --primary-color: rgb(75, 75, 75);
-    --secondary-color: rgb(210, 221, 231);
+    --secondary-color: rgb(220, 227, 241);
     --darker-secondary-color: rgba(210, 221, 231, 0.7);
 }  
     
@@ -31,6 +31,11 @@ body a {
 
 body a:hover {
     color: var(--darker-secondary-color);
+}
+
+hr {
+    width: 80%;
+    margin: 0 auto;
 }
 
 /* header */
@@ -107,12 +112,36 @@ section h1 {
     font-family: var(--sans-font);
 }
 
+section h3 {
+    font-family: var(--sans-font);
+    font-weight: 300;
+}
+
 section img {
     overflow: hidden;
     width: 100%;
     min-width: 400px;
     max-width: 700px;
 }
+
+/*wines page*/
+
+#wines-intro {
+    text-align: center;
+}
+
+#wines-nav {
+    font-family: var(--logo-font);
+    font-size: 2em;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1em;
+}
+
+.wine-card li {
+    margin: .5em 0;
+}
+
 
 /* footer */
 
@@ -131,7 +160,7 @@ footer > div {
 
     text-align: center;
     font-family: var(--sans-font);
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 #map img {
@@ -175,7 +204,7 @@ footer > div {
 
 /* Medium screens ( 992px and down) */
 @media only screen and (max-width: 992px) {
-    
+
     footer > div {
         width: 100%;
     }
