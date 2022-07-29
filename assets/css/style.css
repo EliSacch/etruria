@@ -18,6 +18,7 @@
 }
 
 body {
+    max-width: 100%;
     color: var(--primary-color);
     font-family: var(--serif-font);
     display: grid;
@@ -206,6 +207,45 @@ section img {
     justify-content: space-evenly;
 }
 
+table {
+    font-size: 1.1em;
+    text-align: center;
+
+}
+
+table td:first-child {
+    text-align: right;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+table tr:nth-child(even) {
+    background-color: rgb(240, 239, 239);
+}
+
+.table-container {
+    width:fit-content;
+    margin: 0 auto;
+}
+
+.price-list {
+    text-align: center;
+}
+.price-list ul {
+    margin: 1em 0;
+}
+
+.price-list h3 {
+    font-weight: 400;
+}
+
+.large-screen {
+    display: block;
+}
+
+.small-screen {
+    display: none;
+}
 /* footer */
 
 footer {
@@ -278,5 +318,17 @@ footer > div {
         width: 90%;
         --size: cover;
         --position: center;
+    }
+}
+
+/* Small screens (768px and down) */
+
+@media only screen and (max-width: 768px) {
+    .large-screen {
+        display: none;
+    }
+
+    .small-screen {
+        display: block;
     }
 }
