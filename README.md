@@ -104,19 +104,17 @@ The live link can be found here -
 
 ## Credits 
 
-### Content - to be completed later
+### Content
 
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
+- Instructions on how to make the navbar sticky was taken from [Web Dev Simplified, The Forgotten CSS Position](https://www.youtube.com/watch?v=NzjU1GmKosQ)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-
-### Media
-
 - The following fonts, used for the project, are from [Google Fonts](https://fonts.google.com/):
   - Montserrat
   - Poiret one
   - Cormorant Garamond
-- The icons are from [Fontawesome](https://fontawesome.com/)
+
+### Media
+
 - The photos used on the home are from [Unsplash](https://unsplash.com/)
   - Family members portrait photo by [Omar Lopez](https://unsplash.com/@omarlopez1?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
   - Vineyard photo by [Rudolf-Peter Bakker](https://unsplash.com/@rudolf_peter_bakker?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
