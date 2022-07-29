@@ -38,7 +38,7 @@ body a:hover {
 header, footer{
     width: 100%;
     display: flex;
-    padding: 0 2em;
+    padding: .5em 2em;
     background-color: var(--primary-color);
     color: var(--secondary-color);
 }
@@ -117,15 +117,17 @@ section img {
 /* footer */
 
 footer {
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    flex-wrap: wrap-reverse;
 }
 
 footer > div {
     width: 33%;
     max-width: 400px;
-    padding: 2em 1em;
-    height: 300px; 
-    overflow: hidden;
+    padding: 1em 1em;
+    height: fit-content; 
 
     text-align: center;
     font-family: var(--sans-font);
@@ -136,11 +138,9 @@ footer > div {
     width: 100%;
 }
 
-#contact, #social {
-    height: fit-content;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+#map {
+    min-width: 400px;
+    overflow: hidden;
 }
 
 #social {
@@ -153,4 +153,31 @@ footer > div {
     font-size: 2em;    
 }
 
+
+/* @media queries */
+
+/* Extra large screens (large screen size from 1800px and up) */
+@media only screen and (min-width: 1800px) {
+    header {
+        justify-content: center;
+    }
+
+    header > div {
+        width: 400px;
+        margin-right: 20px;
+        text-align: right;
+    }
+
+    #nav ul {
+        border-left: 1px solid var(--secondary-color);
+    }
+}
+
+/* Medium screens ( 992px and down) */
+@media only screen and (max-width: 992px) {
+    
+    footer > div {
+        width: 100%;
+    }
+}
 
