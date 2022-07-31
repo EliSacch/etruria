@@ -7,7 +7,7 @@
 
     --primary-color: rgb(75, 75, 75);
     --secondary-color: rgb(220, 227, 241);
-    --darker-secondary-color: rgba(210, 221, 231, 0.8);
+    --darker-secondary-color: rgb(150, 162, 175);
 }  
     
 * {
@@ -30,7 +30,7 @@ body a {
     color: inherit;
 }
 
-body a:hover {
+ a:hover {
     color: var(--darker-secondary-color);
 }
 
@@ -52,6 +52,7 @@ header, footer{
 header {
     justify-content: space-between;
     position: fixed;
+    z-index: 10;
 }
 
 #logo {
@@ -64,6 +65,7 @@ header {
     display: flex;
     align-items: center;
     font-size: 1.5em;
+    z-index: 10;
 }
 
 #nav ul {
@@ -111,7 +113,7 @@ section h1 {
     font-family: var(--sans-font);
 }
 
-section h3 {
+h3 {
     font-family: var(--sans-font);
     font-weight: 300;
 }
@@ -210,7 +212,6 @@ section img {
 table {
     font-size: 1.1em;
     text-align: center;
-
 }
 
 table td:first-child {
@@ -246,6 +247,116 @@ table tr:nth-child(even) {
 .small-screen {
     display: none;
 }
+
+/* booking form */
+
+#booking {
+    width: 100%;
+    height: fit-content;
+    --position: center;
+    background: 
+    var(--primary-color)
+    url(../images/black-grapes.jpg)
+    var(--position) / cover
+    no-repeat
+    fixed;
+    margin-bottom: 2em;
+    font-family: var(--sans-font);
+}
+
+.booking-info {
+    text-align: center;
+    width: 80%;
+    margin: 2em auto;
+}
+
+.booking-info a {
+    font-family: var(--sans-font);
+}
+
+.form-container {
+    width: 100%;
+    padding: 2em;
+    margin: 2em auto;
+    color: var(--secondary-color);
+    border: 1px solid var(--primary-color);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 40px var(--primary-color);
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 90%;
+    margin: 0 auto;
+    color: var(--secondary-color);
+}
+
+.input-group {
+    display:flex;
+    flex-wrap: wrap;
+    column-gap: .5em;
+    width: 100%;
+}
+
+.label-top {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    width: 48%;
+    min-width: 200px;
+}
+
+input[type=radio] + label {
+    font-size: .7em;
+}
+input[type=text], input[type=email]{
+    width:100%;
+}
+
+option {
+    background-color: black;
+    padding: 1em;
+}
+
+.one-line {
+    width: 100%;
+}
+
+input, textarea, select, form>button {
+    font-family: var(--sans-font);
+    color: var(--secondary-color);
+    background-color: rgb(75, 75, 75, 0.5);
+    border: 1px solid var(--primary-color);
+    border-radius: 3px;
+    margin: 2px auto;
+    padding: .5em;
+}   
+
+textarea {
+    width: 100%;
+    min-width: 100%;
+    max-height: 200px;
+    min-height: 100px;
+}
+
+input:focus , textarea:focus , select:focus {
+    border: 1px solid var(--primary-color);
+    outline: var(--primary-color) solid;
+}
+
+form > button {
+    padding: .5em;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+form > button:hover, form > button:focus {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
 /* footer */
 
 footer {
@@ -302,6 +413,10 @@ footer > div {
     #nav ul {
         border-left: 1px solid var(--secondary-color);
     }
+
+    #booking {
+        max-width: 1200px;
+    }
 }
 
 /* Medium screens ( 992px and down) */
@@ -330,5 +445,9 @@ footer > div {
 
     .small-screen {
         display: block;
+    }
+
+    #booking {
+        max-width: 100%;
     }
 }

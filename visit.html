@@ -118,9 +118,83 @@
                     <li><b>Groups over 6 people</b>: €15/person</li>
                 </ul>
             </div>
-        </section>
+
+            </section>
+
+            <div class="booking-info">
+                <h3>You can book your experience by filling out the form below.</h3>
+                <p>Please, <a href="#contact" aria-label="Go to contact section">contact us</a> if you want to book an experience for more than 10 people, or if you need more information.</p>   
+            </div>
         <section id="booking">
-            booking form
+            <div class="form-container">
+                <form action="visit.html" method="POST">
+                    <div class="input-group">
+                        <span class="label-top">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                        </span>
+                        <span class="label-top">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </span>
+                    </div>
+                    <div class="input-group">
+                        <p class="one-line">Select your experience:</p>
+                        <span>
+                            <input type="radio" name="experience-selection" value="barrel" id="barrel" required>
+                            <label for="barrel">Wine Tasting</label>
+                        </span>
+                        <span>
+                            <input type="radio" name="experience-selection" value="tasting" id="tasting">
+                            <label for="tasting">The Vineyard Tour</label>
+                        </span>
+                        <span>
+                            <input type="radio" name="experience-selection" value="vines" id="vines">
+                            <label for="vines">The Barrel Room</label>
+                        </span>
+                    </div>
+                    <div class="input-group">
+                        <span>
+                            <label for="time">Select time:</label>
+                            <select id="time" name="time">
+                                <option value="11">11:00 am</option>
+                                <option value="12">12:00 pm</option>
+                                <option value="13">1:00 pm</option>
+                                <option value="14">2:00 pm</option>
+                                <option value="15">3:00 pm</option>
+                                <option value="16">4:00 pm</option>
+                                <option value="17">5:00 pm</option>
+                            </select>
+                        </span>
+                        <span>
+                            <label for="date">Choose your date:</label>
+                            <input type="date" id="date" name="date" min="2022-08-01" max="2026-01-01" required>
+                        </span>
+                    </div>
+                    <div class="input-group">
+                        <span>
+                            <label for="number">Number of people:</label>
+                                <select id="number" name="number">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                </select>
+                            </span>
+                        </div>
+                    <div class="input-group">
+                        <label for="additional" class="one-line">Additional information (optional):</label>
+                        <textarea name="additional" id="additional"></textarea>
+                    </div>
+                    <button type="submit">Make reservation</button>
+                </form>
+            </div>
         </section>
     </content>
 

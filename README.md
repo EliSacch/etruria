@@ -62,7 +62,7 @@ In each page we will have a responsive navbar on top, for navigation, and a foot
 - __The Booking form__
 
   - This section will contain a form to book the experience.
-  - The following information will be required: Name, email, number of people, experience type, time, additional information, submit button.
+  - The following information will be required: Name, email, number of people, experience type, date and time, additional information, submit button.
 
 ### Features Left to Implement
 
@@ -88,7 +88,8 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ### Unfixed Bugs - to be completed later
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+- In the booking form (visit page), the users are required to select the date for their experience. I could not restrict the dates dinamically using only HTML and CSS, so this results in users being able to select a date in the past.
+This bug can be easilly fixed with the support of JavaScript, but that would be outside of the scope of this project.
 
 ## Deployment - to be completed later
 
@@ -106,7 +107,9 @@ The live link can be found here -
 
 ### Content
 
-- Instructions on how to make the navbar sticky was taken from [Web Dev Simplified, The Forgotten CSS Position](https://www.youtube.com/watch?v=NzjU1GmKosQ)
+- Instructions on how to make the navbar sticky were taken from [Web Dev Simplified, The Forgotten CSS Position](https://www.youtube.com/watch?v=NzjU1GmKosQ)
+- Instructions on how to apply glassmorphism to the form were taken from [Coding Artist tutoria](https://www.youtube.com/watch?v=FAfFlyaRAiI)
+
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 - The following fonts, used for the project, are from [Google Fonts](https://fonts.google.com/):
   - Montserrat
@@ -121,10 +124,9 @@ The live link can be found here -
   - Black wine bottle with black label [No Revisions](https://unsplash.com/@norevisions?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
   - Black wine bottle with white label [Ralph Darabos](https://unsplash.com/@darabosralph?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
   - Clear whine bottle with rose wine [Cody Chan](https://unsplash.com/@cceee?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
-  - barrel [Jonathan Borba](https://unsplash.com/@jonathanborba?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
-  - tasting [Maksym Kaharlytskyi](https://unsplash.com/@qwitka?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
-
-
+  - Barrel [Jonathan Borba](https://unsplash.com/@jonathanborba?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+  - Tasting [Maksym Kaharlytskyi](https://unsplash.com/@qwitka?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+  - Black grapes [Keegan Houser](https://unsplash.com/@khouser01?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
 
 ## Other General Project Advice - to be completed later
