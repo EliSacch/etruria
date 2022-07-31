@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Montserrat:ital,wght@0,100;0,300;0,400;0,600;1,100;1,300;1,400;1,600&family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Montserrat:ital,wght@0,100;0,300;0,400;0,600;1,100;1,300;1,400;1,600&family=Poiret+One&family=Sacramento&display=swap');
 
 :root {
     --logo-font: 'Poiret One', cursive;
@@ -40,8 +40,13 @@ hr {
 }
 
 /* header */
-
-header, footer{
+header {
+    width: 100%;
+    position: fixed;
+    background-color: var(--primary-color);
+    z-index: 10;
+}
+.header, footer{
     width: 100%;
     display: flex;
     padding: .5em 2em;
@@ -49,10 +54,10 @@ header, footer{
     color: var(--secondary-color);
 }
 
-header {
+.header {
     justify-content: space-between;
-    position: fixed;
-    z-index: 10;
+    max-width: 1240px;
+    margin: 0 auto;
 }
 
 #logo {
@@ -80,6 +85,38 @@ header {
 .current-page {
     border-bottom: 1px solid var(--darker-secondary-color);
     color: var(--darker-secondary-color);
+}
+
+/*hero image */
+
+#hero-image {
+    width: 100vw;
+    max-width: 1600px;
+    height: 400px;
+    overflow: hidden;
+    margin: 0 auto;
+    background: 
+    var(--primary-color)
+    url(../images/hero-image.jpg)
+    left top / cover
+    no-repeat;
+}
+
+#hero-image div {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .6);
+    position: relative;
+}
+
+#quote {
+    color: var(--secondary-color);
+    font-family: var(--logo-font);
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    padding: 20px 30px;
+    border-left: 2px solid var(--primary-color);
 }
 
 /* content */
@@ -142,6 +179,7 @@ section img {
 }
 
 #wines-nav {
+    max-width: 1240px;
     font-family: var(--logo-font);
     font-size: 2em;
     display: flex;
@@ -193,6 +231,7 @@ section img {
     --url: url(../images/tasting.jpg);
     --position: center;
 }
+
 #vineyard-tour {
     --url: url(../images/vineyard.jpg);
     --position: top right;
@@ -311,6 +350,7 @@ table tr:nth-child(even) {
 input[type=radio] + label {
     font-size: .7em;
 }
+
 input[type=text], input[type=email]{
     width:100%;
 }
@@ -361,6 +401,9 @@ form > button:hover, form > button:focus {
 
 .logo-center {
     margin: 0 auto;
+    padding: 0;
+    width: fit-content;
+    color: var(--secondary-color);
 }
 #booking-confirmation {
     margin:0 auto;
@@ -372,7 +415,6 @@ form > button:hover, form > button:focus {
 #booking-confirmation div {
     margin: 2em 0;
 }
-
 
 /* footer */
 
@@ -417,11 +459,11 @@ footer > div {
 
 /* Extra large screens (large screen size from 1800px and up) */
 @media only screen and (min-width: 1800px) {
-    header {
+    .header {
         justify-content: center;
     }
 
-    header > div {
+    .header > div {
         width: 400px;
         margin-right: 20px;
         text-align: right;
