@@ -357,6 +357,23 @@ form > button:hover, form > button:focus {
     color: var(--primary-color);
 }
 
+/*booked page */
+
+.logo-center {
+    margin: 0 auto;
+}
+#booking-confirmation {
+    margin:0 auto;
+    margin-top: calc(50px + 15vw);
+    width: 40%;
+    text-align: center;
+}
+
+#booking-confirmation div {
+    margin: 2em 0;
+}
+
+
 /* footer */
 
 footer {
@@ -450,4 +467,8 @@ footer > div {
     #booking {
         max-width: 100%;
     }
+
+    #booking-confirmation {
+        width: 90%;
+}
 }
