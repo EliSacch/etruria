@@ -46,8 +46,10 @@ header {
     background-color: var(--primary-color);
     z-index: 10;
 }
+
 .header, footer{
     width: 100%;
+    max-width: 100%;
     display: flex;
     padding: .5em 2em;
     background-color: var(--primary-color);
@@ -56,17 +58,22 @@ header {
 
 .header {
     justify-content: space-between;
+    align-items: center;
     max-width: 1240px;
     margin: 0 auto;
 }
 
-#logo {
+#logo h1 {
+    margin: auto;
+    align-items: center;
     font-family: var(--logo-font);
-    font-size: 1.3em;
+    font-size: 2em;
     padding: .5em 0;
 }
 
+
 #nav {
+    max-width: 100%;
     display: flex;
     align-items: center;
     font-size: 1.5em;
@@ -90,7 +97,7 @@ header {
 /*hero image */
 
 #hero-image {
-    width: 100vw;
+    width: 100%;
     max-width: 1600px;
     height: 400px;
     overflow: hidden;
@@ -104,6 +111,7 @@ header {
 
 #hero-image div {
     width: 100%;
+    max-width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, .6);
     position: relative;
@@ -121,8 +129,9 @@ header {
 
 /* content */
 
-content {
+.content {
     width: 100%;
+    max-width: 1240px;
     margin: 0 auto;
     margin-top: 70px;
     font-size: 1.3em; 
@@ -133,19 +142,23 @@ section {
     grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
     grid-gap: 2em;
     padding: 2em 0;
+    width: 100%;
+    max-width: 100%;
     align-items: center;
-    width: fit-content;
-    max-width: 90%;
     margin: 0 auto;
 }
 
 section > div {
-    width: fit-content;
-    max-width: 600px;
+    width: 100%;
+    max-width: 100%;
     margin: 0 auto;
 }
 
-section h1 {
+.text-content {
+    width: 90%;
+}
+
+h1 {
     margin-bottom: 1em;
     font-family: var(--sans-font);
 }
@@ -155,20 +168,25 @@ h3 {
     font-weight: 300;
 }
 
-section img {
+section div > img {
     overflow: hidden;
     width: 100%;
+    max-width: 100%;
     min-width: 400px;
-    max-width: 700px;
+    margin: 0 auto;
 }
 
 /*wines page*/
 
 #wines-intro {
     text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 80px;
 }
 
 .sticky-nav {
+    max-width: 1240px;
     background-color: white;
     position: -webkit-sticky;
     position: -moz-sticky;
@@ -179,12 +197,10 @@ section img {
 }
 
 #wines-nav {
-    max-width: 1240px;
     font-family: var(--logo-font);
     font-size: 2em;
     display: flex;
     justify-content: space-around;
-    margin-top: 1em;
     padding: .3em 0;
     width: 90%;
     margin: 0 auto;
@@ -445,7 +461,7 @@ footer > div {
     overflow: hidden;
 }
 
-#social {
+#social ul {
     display: flex;
     justify-content: center;
     gap: 1em;
@@ -459,19 +475,6 @@ footer > div {
 
 /* Extra large screens (large screen size from 1800px and up) */
 @media only screen and (min-width: 1800px) {
-    .header {
-        justify-content: center;
-    }
-
-    .header > div {
-        width: 400px;
-        margin-right: 20px;
-        text-align: right;
-    }
-
-    #nav ul {
-        border-left: 1px solid var(--secondary-color);
-    }
 
     #booking {
         max-width: 1200px;
@@ -498,6 +501,12 @@ footer > div {
 /* Small screens (768px and down) */
 
 @media only screen and (max-width: 768px) {
+
+    section {
+        grid-template-columns: 1fr;
+        max-width: 100%;
+    }
+
     .large-screen {
         display: none;
     }
@@ -506,11 +515,28 @@ footer > div {
         display: block;
     }
 
+    .sticky-nav {
+        position: relative;
+        top: 0;
+    }
+
+    .sticky-nav ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     #booking {
         max-width: 100%;
     }
 
     #booking-confirmation {
         width: 90%;
-}
+    }
+
+    #map {
+        min-width: none;
+        width: 90%;
+        max-width: 90%;
+    }
 }
