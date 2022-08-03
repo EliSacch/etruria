@@ -39,6 +39,7 @@ hr {
     margin: 0 auto;
 }
 
+
 /* header */
 header {
     width: 100%;
@@ -503,7 +504,7 @@ footer > div {
 @media only screen and (max-width: 768px) {
 
     section {
-        grid-template-columns: 1fr;
+        grid-template-columns: 100%;
         max-width: 100%;
     }
 
@@ -534,9 +535,13 @@ footer > div {
         width: 90%;
     }
 
-    #map {
-        min-width: none;
-        width: 90%;
-        max-width: 90%;
+    #map, #map img {
+        max-width: 100%;
+        min-width: 200px;
+    }
+
+    section div img {
+        max-width: 100%;
+        min-width: 200px;
     }
 }
