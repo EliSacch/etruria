@@ -95,6 +95,65 @@ header {
     color: var(--darker-secondary-color);
 }
 
+#toggler , #sub-toggler {
+    display: none;
+}
+
+.sub-container {
+    position: relative;
+    width: fit-content;
+}
+
+#toggler + label {
+    font-size: 2em;
+    color: var(--secondary-color);
+    position: absolute;
+    cursor: pointer;
+    top: 28px;
+    right: 20px;
+  }
+
+#sub-toggler + label {
+    position: absolute;
+    cursor: pointer;
+    top: 5px;
+    left:auto;
+}
+
+.close {
+    display: none;
+}
+
+.collapsing-nav {
+   display: none;
+}
+
+.collapsing-nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-top: 1px solid var(--darker-secondary-color);
+    border-bottom: 1px solid var(--darker-secondary-color);
+    color: var(--secondary-color);
+    font-size: 1.5em;
+    padding:1em;
+    row-gap: .2em;
+} 
+
+#toggler:checked ~ .collapsing-nav , 
+#sub-toggler:checked ~ .collapsing-nav  {
+    display: block;
+}
+
+#submenu ul {
+    font-size: inherit;
+    border: none;
+    margin-left: 100px;
+    width: auto;
+}
+
 /*hero image */
 
 #hero-image {
@@ -331,7 +390,7 @@ table tr:nth-child(even) {
 }
 
 .form-container {
-    width: 100%;
+    width: 80%;
     padding: 2em;
     margin: 2em auto;
     color: var(--secondary-color);
@@ -499,6 +558,14 @@ footer > div {
     }
 }
 
+/* All except mobile (768px and up) */
+
+@media only screen and (min-width: 768px) {
+    #toggler:checked ~ .collapsing-nav {
+        display: none;
+    }
+}
+
 /* Small screens (768px and down) */
 
 @media only screen and (max-width: 768px) {
@@ -508,7 +575,7 @@ footer > div {
         max-width: 100%;
     }
 
-    .large-screen {
+    .large-screen , ul.large-screen li {
         display: none;
     }
 
@@ -533,6 +600,10 @@ footer > div {
 
     #booking-confirmation {
         width: 90%;
+    }
+
+    .form-container {
+        width: 98%;
     }
 
     #map, #map img {

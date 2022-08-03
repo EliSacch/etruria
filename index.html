@@ -25,13 +25,40 @@
                 </h1>
             </div>
             <div id="nav">
-                <ul>
-                    <li><a href="index.html" aria-label="Go to the home page" class="current-page">Home</a></li>
+                <ul class="large-screen">
+                    <li><a href="index.html" aria-label="Go to the home page"  class="current-page">Home</a></li>
                     <li><a href="wines.html" aria-label="Go to the wines page">Wines</a></li>
                     <li><a href="visit.html" aria-label="Go to the visit page">Visit</a></li>
                 </ul>
             </div>
         </div>
+
+        <div>
+            <input type="checkbox" id="toggler" name="toggler">
+            <label for="toggler" class="toggle-menu small-screen">
+                <span class="open"><i class="fa-solid fa-bars"></i></span>
+                <span class="close"><i class="fa-solid fa-x"></i></span>
+            </label>
+            <nav class="collapsing-nav">
+                <ul>
+                    <li><a href="index.html" aria-label="Go to the home page"  class="current-page">Home</a></li>
+                    <li class="sub-container"><a href="wines.html" aria-label="Go to the wines page">Wines</a>
+           
+                        <input type="checkbox" id="sub-toggler" name="sub-toggler">
+                        <label for="sub-toggler" class="toggle-menu">&#9662;</label>
+                        <div id="submenu" class="collapsing-nav">
+                            <ul>
+                                <li><a href="wines.html#tudemis" aria-label="Go to Tudemis">Tudemis</a></li>
+                                <li><a href="wines.html#etesiaca" aria-label="Go to Etesiaca">Etesiaca</a></li>
+                                <li><a href="wines.html#apiana" aria-label="Go to the Apiana">Apiana</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="visit.html" aria-label="Go to the visit page">Visit</a></li>
+                </ul>
+            <nav>
+        </div>
+
     </header>
 
     <div id="about" class="content" aria-labelledby="family vineyard">

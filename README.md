@@ -108,7 +108,8 @@ The live link can be found here -
 ### Content
 
 - Instructions on how to make the navbar sticky were taken from [Web Dev Simplified, The Forgotten CSS Position](https://www.youtube.com/watch?v=NzjU1GmKosQ)
-- Instructions on how to apply glassmorphism to the form were taken from [Coding Artist tutoria](https://www.youtube.com/watch?v=FAfFlyaRAiI)
+- Instructions on how to apply glassmorphism to the form were taken from [Coding Artist tutorial](https://www.youtube.com/watch?v=FAfFlyaRAiI)
+- Instructions on how to create responsive menu with CSS only were taken from [Angela Delise tutorial](https://www.youtube.com/watch?v=SIzi9z8mrTk&list=PLwgCAlizRKeXs2U_hrZOTCspYjqh2avjS&index=25)
 
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 - The following fonts, used for the project, are from [Google Fonts](https://fonts.google.com/):
