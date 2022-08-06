@@ -30,7 +30,7 @@ body a {
     color: inherit;
 }
 
- a:hover {
+a:hover {
     color: var(--darker-secondary-color);
 }
 
@@ -38,7 +38,6 @@ hr {
     width: 80%;
     margin: 0 auto;
 }
-
 
 /* header */
 header {
@@ -68,7 +67,7 @@ header {
     margin: auto;
     align-items: center;
     font-family: var(--logo-font);
-    font-size: 2em;
+    font-size: 2.5em;
     padding: .5em 0;
 }
 
@@ -77,7 +76,8 @@ header {
     max-width: 100%;
     display: flex;
     align-items: center;
-    font-size: 1.5em;
+    font-size: 1.2em;
+    font-family: var(--sans-font);
     z-index: 10;
 }
 
@@ -116,8 +116,8 @@ header {
 #sub-toggler + label {
     position: absolute;
     cursor: pointer;
-    top: 5px;
-    left:auto;
+    right: auto;
+    top: 3px;
 }
 
 .close {
@@ -137,7 +137,8 @@ header {
     border-top: 1px solid var(--darker-secondary-color);
     border-bottom: 1px solid var(--darker-secondary-color);
     color: var(--secondary-color);
-    font-size: 1.5em;
+    font-size: 1.2em;
+    font-family: var(--sans-font);
     padding:1em;
     row-gap: .2em;
 } 
@@ -148,10 +149,9 @@ header {
 }
 
 #submenu ul {
-    font-size: inherit;
+    font-size: 1.2rem;
     border: none;
-    margin-left: 100px;
-    width: auto;
+    font-family: var(--logo-font);
 }
 
 /*hero image */
@@ -193,14 +193,13 @@ header {
     width: 100%;
     max-width: 1240px;
     margin: 0 auto;
-    margin-top: 70px;
+    margin-top: 100px;
     font-size: 1.3em; 
 }
 
 section {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
-    grid-gap: 2em;
+    display: flex;
+    gap: 2em;
     padding: 2em 0;
     width: 100%;
     max-width: 100%;
@@ -215,10 +214,12 @@ section > div {
 }
 
 .text-content {
-    width: 90%;
+    width: 100%;
+    padding: 0 1em;
 }
 
 h1 {
+    font-size: 1.5em;
     margin-bottom: 1em;
     font-family: var(--sans-font);
 }
@@ -238,11 +239,10 @@ section div > img {
 
 /*wines page*/
 
-#wines-intro {
+#wines-intro, #visit-intro{
     text-align: center;
     width: 90%;
     margin: 0 auto;
-    margin-top: 80px;
 }
 
 .sticky-nav {
@@ -253,7 +253,7 @@ section div > img {
     position: -ms-sticky;
     position: -o-sticky;
     position: sticky;
-    top: 80px;
+    top: 100px;
 }
 
 #wines-nav {
@@ -261,9 +261,10 @@ section div > img {
     font-size: 2em;
     display: flex;
     justify-content: space-around;
-    padding: .3em 0;
+    row-gap: .2em;
     width: 90%;
     margin: 0 auto;
+    padding: .2em 0;
     border-bottom: 1px solid var(--primary-color);
 }
 
@@ -486,10 +487,11 @@ form > button:hover, form > button:focus {
     margin-top: calc(50px + 15vw);
     width: 40%;
     text-align: center;
+    font-size: 1.3em;
 }
 
-#booking-confirmation div {
-    margin: 2em 0;
+#booking-confirmation div{
+    margin: 2em auto;
 }
 
 /* footer */
@@ -558,6 +560,27 @@ footer > div {
     }
 }
 
+/* Medium small screens (768px and up) */
+
+@media only screen and (max-width: 840px) {
+    section {
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .text-content {
+        max-width: 90%;
+    }
+
+    #about {
+        text-align: center;
+    }
+
+    .reverse-wrap div:first-child {
+        order: 1;
+    }
+}
+
 /* All except mobile (768px and up) */
 
 @media only screen and (min-width: 768px) {
@@ -570,9 +593,9 @@ footer > div {
 
 @media only screen and (max-width: 768px) {
 
-    section {
-        grid-template-columns: 100%;
-        max-width: 100%;
+    #quote {
+        top: 50%;
+        left: 5%;
     }
 
     .large-screen , ul.large-screen li {
