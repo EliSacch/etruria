@@ -144,8 +144,13 @@ header {
 } 
 
 #toggler:checked ~ .collapsing-nav , 
-#sub-toggler:checked ~ .collapsing-nav  {
+#toggler:checked + label > span.close ,
+#sub-toggler:checked ~ .collapsing-nav {
     display: block;
+}
+
+#toggler:checked + label > span.open {
+    display: none;
 }
 
 #submenu ul {
