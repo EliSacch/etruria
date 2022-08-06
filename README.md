@@ -7,10 +7,37 @@ The website will be targeted toward wine lovers, and it will be useful to know m
 
 ![Responsice Mockup](https://github.com/EliSacch/etruria/blob/main/media/responsive-mockup.png)
 
+[See deployed website](https://elisacch.github.io/etruria/)
+
 ## Features 
 
-There will be three pages: Home page, Products and Visit.
-In each page we will have a responsive navbar on top, for navigation, and a footer with contact information and social media links.
+There are three pages: Home page, Wines and Visit.
+In each page we have a responsive navbar on top, for navigation, and a footer with contact information and social media links.
+
+### Navbar and footer
+
+Both navbar and footer change layout depending on the size of the screen.
+
+- __Navigation bar__
+
+  - All the navigation items are visible on larger screen, while they are hidden in a coppalsing navbar on smaller screens.
+
+  - The collapsing navbar has an hamburger menu icon when it's closed, and an x symbol when it's open.
+
+![Responsice Navbar](https://github.com/EliSacch/etruria/blob/main/media/navbar-large.png)
+
+- __Footer__
+
+  - The footer contains the contact information, including:
+    - map of the area
+    - address
+    - email address
+    - phone number
+    - social media links
+
+  - When clicking on the email address link it will open the user's default email client, and the recipient will be already filled out with the email address of the company.
+
+![Footer](https://github.com/EliSacch/etruria/blob/main/media/footer.png)
 
 ### Home Page
 
