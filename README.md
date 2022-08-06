@@ -75,26 +75,35 @@ The homebage containg the information about the company. In particular it contai
 
 ### Visit
 
-  - This section will offer an overview of the tasting experiences available, and what they include.
+  - This section offers an overview of the tasting experiences available, and what they include.
 
 - __Experiences overview__ 
 
   - This section is valuable to the user as they will be able to easily identify the types of experiences available, the duration and what they include. 
-  - There will be three different experiences, and they will be presented as three cards, each one with a dark image as backround, and light text.
+  - There are three different experiences, and they are presented as three cards, each one with a dark image as backround, and light text.
 
 - __Price table__ 
 
-- This table will provide details of the prices, based on the experience type / number of people.
+  - This table provides details of the prices, based on the experience type / number of people.
+  - It changes layout on small screens.
 
 
 - __The Booking form__
 
-  - This section will contain a form to book the experience.
-  - The following information will be required: Name, email, number of people, experience type, date and time, additional information, submit button.
+  - This section contains a form to book the experience.
+  - The following fiels are required: Name, Email, Number of people, Experience type, Date and Time.
+  - There is an additional field to add other information if needed, so this is the only non mandatory field.
+  - The select element for "Number of People" allows a minimum of 1 and a mazimum of 10. For this reason the user is informed to contact the company directly to book an experience for more than 10 people.
+  - Users can click on "contact us" from this message, to reach the contact information directly, so they will know how to contact.
 
-### Features Left to Implement
 
-- CSS animations after the base structure is in place.
+- __Booking confirmation Page__
+
+  - After filling out all the mandatory field, users are redirected to a new page with the following information:
+    - Booking confirmation message
+    - Company contact in case they have more questions or they need to cancel or modify the reservation.
+    - A call to action to bring the user back to the homepage, with direct link, so that users are not redirected automatically, but they can review all the information and leave the page when they are ready.
+
 
 ## Testing - to be completed later
 
