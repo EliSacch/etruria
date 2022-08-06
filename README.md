@@ -5,7 +5,7 @@ The purpose of this website it to tell the story of the family, and to present t
 
 The website will be targeted toward wine lovers, and it will be useful to know more, not only about the products, but also about the tasting experiences offered by the family. 
 
-![Responsice Mockup](../media/love_running_mockup.png)
+![Responsice Mockup](https://github.com/EliSacch/etruria/blob/main/media/responsive-mockup.png)
 
 ## Features 
 
