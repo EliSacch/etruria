@@ -82,11 +82,14 @@ The homebage containg the information about the company. In particular it contai
   - This section is valuable to the user as they will be able to easily identify the types of experiences available, the duration and what they include. 
   - There are three different experiences, and they are presented as three cards, each one with a dark image as backround, and light text.
 
+  ![Experiences Cards](https://github.com/EliSacch/etruria/blob/main/media/experiences-cards.png)
+
 - __Price table__ 
 
   - This table provides details of the prices, based on the experience type / number of people.
   - It changes layout on small screens.
 
+ ![Two table views](https://github.com/EliSacch/etruria/blob/main/media/table.png)
 
 - __The Booking form__
 
