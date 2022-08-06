@@ -289,7 +289,7 @@ section div > img {
     font-family: var(--logo-font);
 }
 
-#experiences > card {
+#experiences > .card {
     color: var(--secondary-color);
     width: 33%;
     margin: 0 auto;
@@ -558,7 +558,7 @@ footer > div {
     #experiences {
        flex-direction: column;
     }
-    #experiences > card {
+    #experiences div.card {
         width: 90%;
         --size: cover;
         --position: center;
