@@ -43,34 +43,35 @@ Both navbar and footer change layout depending on the size of the screen.
 
 - __landing page image__
 
-  - This is the landing page for our users, so it will have an animated hero image to grab their attention.
+  - This is the landing page for our users, so it has an eye-catching hero image to grab their attention.
+  - The hero image is only on the homepage, to easily distinguish it from the other pages.
 
-- __The Family__
+![Hero image](https://github.com/EliSacch/etruria/blob/main/media/hero-image.png)
 
-  - The family section includes a photograph of the family, and a brief introduction to their story, and how they built the Winery as we know it today.
+- __About__
 
-![Landing Page] N/A
+The homebage containg the information about the company. In particular it contains two distinc sections:
 
-- __The vineyard__
+  - The family section, which includes a photograph of the family, and a brief introduction to their story, and how they built the Winery as we know it today.
 
-  - This section will contain an overview of the vineyard, the terroir and it will explain the different varieties of grapes.
-  - There will be a picture of the vineyard.
+  - The vineyard section, which contains an overview of the vineyard, the terroir and it explains the different varieties of grapes.
 
-### Products
-
-  - This page will introduces the wines produced by Etruria.
+### Wines
+  - This page introduces the users to the selection of wines produced by Etruria.
 
 - __Secondary Navigation Bar__
 
-  - This second navigation will be a list of the products. 
-  - It will allow users to reach the section dedicated to each label without having to scroll all the way down.
+  - This page includes a secondary navigation bar, which includes the names of the three wines offered.
+  - The user can click on the name to reach the section dedicated to each label without having to scroll all the way down.
+  - The navigation is sticky on larger screens, so it is always visible on top of the screen even when the user scrolls down, but it is not sticky on smaller screen, not to take unecessary space.
+  - For this reason the main navigation bar includes a sub-menu, under the "Wines" item, so that users can still have the same functionality even in smaller screens, and reach the specific wine information in one click.
 
-![Products_page] N/A
+![Secondary menu view on small screens](https://github.com/EliSacch/etruria/blob/main/media/sub-menu.png)
 
 - __Wine section__ 
 
-  - There will be one section for each product.
-  - It will contain one real image of the bottle, a brief description and the organoleptic test, alcohol content and serving temperature.
+  - There is one section for each product.
+  - It contains one real image of the bottle, a brief description and the organoleptic test, alcohol content and serving temperature.
 
 ### Visit
 
