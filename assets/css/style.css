@@ -379,7 +379,7 @@ table tr:nth-child(even) {
     background: 
     var(--primary-color)
     url(../images/black-grapes.jpg)
-    var(--position) / cover
+    var(--position) / 100% auto
     no-repeat
     fixed;
     margin-bottom: 2em;
