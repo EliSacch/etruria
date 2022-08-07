@@ -645,7 +645,7 @@ footer > div {
 
     .form-background {  
 
-        --position: bottom center;
+        --position: top 20px right;
         background-image:  url(../images/black-grapes-mobile.jpg);
     }
 
