@@ -373,17 +373,28 @@ table tr:nth-child(even) {
 
 #booking {
     width: 100%;
+    max-width: 1200px;
     display: flex;
     height: fit-content;
+    position: relative;
+    margin-bottom: 2em;
+    font-family: var(--sans-font);
+}
+
+.form-background {  
+    height: 100%;
+    width: 100%;   
     --position: bottom center;
     background: 
     var(--primary-color)
     url(../images/black-grapes.jpg)
-    var(--position) / 100% auto
+    var(--position) /cover
     no-repeat
     fixed;
-    margin-bottom: 2em;
-    font-family: var(--sans-font);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .booking-info {
