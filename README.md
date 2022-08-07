@@ -108,16 +108,53 @@ The homebage containg the information about the company. In particular it contai
     - A call to action to bring the user back to the homepage, with direct link, so that users are not redirected automatically, but they can review all the information and leave the page when they are ready.
 
 
-## Testing - to be completed later
+## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+To test my website I have opened it on different devices, to see if it was working as expected.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+The GitHub page does not support submission of forms with POST method, so I had to change it into GET, just for the scope of this project.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+Browser tested:
+- Chrome
+- Firefox
+- Edge
+- Brave
+- Safari
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+Operating systems:
+- Windows
+- Android
+- iOS
 
+Tests:
+
+|Action | Expected behavious | Result|
+|-------|--------------------|-------|
+|Copy url of the browser and paste it in browser. Press enter | Browser should load index.html | Pass |
+|Scale up the window | The contentent should not stretch over a certain size | Pass |
+|Scale down the window | The contentent should be visible without having to scroll horizontally | Pass |
+|Scale down under 840px width | The layout should switch from 2 to 1 column | Pass |
+|Scale down under 769px width | The top navigation bar should collapse into hamburger navbar | Pass |
+|Click or tap on hamburger menu icon | The navigation menu should open and the icon change into a close icon | Pass |
+|Click or tap on the close icon | The navigation menu should close and the icon change back into a hamburger menu icon | Pass |
+|Click or tap on the email address in the footer | It should open the device email client to send an email | Pass |
+|Click or tap on the LinkedIn icon in the footer | It should open LinkedIn in a new tab | Pass |
+|Click or tap on the Instagram icon in the footer | It should open Instagram in a new tab | Pass |
+|Click or tap on the Facebook icon in the footer | It should open Facebook in a new tab | Pass |
+|Click or tap on the "Wines" item in navigation bar | The Wines page should open | Pass |
+|Click or tap on the "Tudemis" item in the secondary navigation bar | It should bring me to the Tudemis section of wines page | Pass |
+|Click or tap on the "Etesiaca" item in the secondary navigation bar | It should bring me to the Etesiaca section of wines page | Pass |
+|Click or tap on the "Apiana" item in the secondary navigation bar | It should bring me to the Apiana section of wines page | Pass |
+|Click or tap on the "Visit" item in navigation bar | The Visit page should open | Pass |
+|Click or tap on the "Contact us" link right above the form | It should bring me to the contact section in the footer | Pass |
+|Submit the form without any value | Browser should inform me that "Name" is a required field, and form should not be submitted | Pass |
+|Submit the form without email address | Browser should inform me that "Email" is a required field, and form should not be submitted | Pass |
+|Submit the form with invalid email address | Browser should inform me that "Email" field must be of email format, and form should not be submitted | Pass |
+|Submit the form without choosing one radio option | Browser should inform me that is a required field, and form should not be submitted | Pass |
+|Submit the form without choosing a date | Browser should inform me that is a required field, and form should not be submitted | Pass |
+|Submit the form with all the required information | Form should be submitted and user should be redirected to a confirmation page | Pass |
+|Click or tap on the email address from the confirmation page | It should open the device email client to send an email | Pass |
+|Click or tap on the "Bring me home" link in the confirmation page | User should be redirected to index.html | Pass |
 
 ### Validator Testing
 

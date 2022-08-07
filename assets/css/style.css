@@ -600,7 +600,7 @@ footer > div {
 
 /* All except mobile (768px and up) */
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px) {
     #toggler:checked ~ .collapsing-nav {
         display: none;
     }
