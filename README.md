@@ -112,7 +112,7 @@ The homebage containg the information about the company. In particular it contai
 
 I have tested the performance in chrome, using lighthouse
 
- ![Two table views](https://github.com/EliSacch/etruria/blob/main/media/performance.png)
+ ![Performance](https://github.com/EliSacch/etruria/blob/main/media/performance.jpg)
 
 To test my website I have opened it on different devices, to see if it was working as expected.
 
