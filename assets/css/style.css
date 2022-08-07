@@ -373,8 +373,9 @@ table tr:nth-child(even) {
 
 #booking {
     width: 100%;
+    display: flex;
     height: fit-content;
-    --position: center;
+    --position: bottom center;
     background: 
     var(--primary-color)
     url(../images/black-grapes.jpg)
