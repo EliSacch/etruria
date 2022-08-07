@@ -113,13 +113,6 @@ header {
     right: 20px;
   }
 
-#sub-toggler + label {
-    position: absolute;
-    cursor: pointer;
-    right: auto;
-    top: 3px;
-}
-
 .close {
     display: none;
 }
@@ -142,6 +135,14 @@ header {
     padding:1em;
     row-gap: .2em;
 } 
+
+.collapsing-nav > ul li {
+    padding: .3em;
+}
+
+.sub-container {
+    margin-left: 20px;
+}
 
 #toggler:checked ~ .collapsing-nav , 
 #toggler:checked + label > span.close ,
@@ -381,8 +382,8 @@ table tr:nth-child(even) {
     font-family: var(--sans-font);
 }
 
-.form-background {  
-    height: 100%;
+.form-background {
+    padding: 2em 1em;  
     width: 100%;   
     --position: bottom center;
     background: 
@@ -409,7 +410,7 @@ table tr:nth-child(even) {
 
 .form-container {
     width: 80%;
-    padding: 2em;
+    padding: 3em 2em;
     margin: 2em auto;
     color: var(--secondary-color);
     border: 1px solid var(--primary-color);
@@ -640,6 +641,12 @@ footer > div {
 
     #booking-confirmation {
         width: 90%;
+    }
+
+    .form-background {  
+
+        --position: bottom center;
+        background-image:  url(../images/black-grapes-mobile.jpg);
     }
 
     .form-container {
