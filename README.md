@@ -110,6 +110,10 @@ The homebage containg the information about the company. In particular it contai
 
 ## Testing 
 
+I have tested the performance in chrome, using lighthouse
+
+ ![Two table views](https://github.com/EliSacch/etruria/blob/main/media/performance.png)
+
 To test my website I have opened it on different devices, to see if it was working as expected.
 
 The GitHub page does not support submission of forms with POST method, so I had to change it into GET, just for the scope of this project.
