@@ -93,7 +93,7 @@ The map:
 <details>
   <summary>Desktop</summary>
 
-   ![Desktop Wireframes](https://github.com/EliSacch/etruria/blob/main/media/desktop-home.jpg) ![Desktop Wireframes](https://github.com/EliSacch/etruria/blob/main/media/desktop-wines.jpg) ![Desktop Wireframes](https://github.com/EliSacch/etruria/blob/main/media/desktop-visit.jpg)
+   ![Desktop Wireframes](https://github.com/EliSacch/etruria/blob/main/media/desktop-wireframes.jpg) 
 
 </details>
 
