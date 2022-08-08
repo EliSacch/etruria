@@ -26,9 +26,9 @@ Choice of fonts:
 
 Choice of colours: 
 
-  - Primary color:           ![Primary color](https://github.com/EliSacch/etruria/blob/main/media/primary.jpg =250x)
-  - Secondary color:         ![Primary color](https://github.com/EliSacch/etruria/blob/main/media/secondary.jpg =250x)
-  - Darker secondary color:  ![Primary color](https://github.com/EliSacch/etruria/blob/main/media/darker-secondary.jpg =250x)
+  - Primary color:           ![Primary color](https://github.com/EliSacch/etruria/blob/main/media/primary.jpg)
+  - Secondary color:         ![Primary color](media/secondary.jpg =250x)
+  - Darker secondary color:  ![Primary color](https://github.com/EliSacch/etruria/blob/main/media/darker-secondary.jpg){:width="200px"}
 
 The map:
 
@@ -36,14 +36,27 @@ The map:
   - Users can still click on the address right next to it to open Google Maps.
 
 
+
+
 ### User Experience
 
 - As business owner I want:
     - To introduce my family and my products to the users.
     - A dedicated section to showcase my products.
-    - That users know 
+    - A different section to showcase the different experiences that I offer.
+    - That users know how to contact me.
+    - That users can easily book their experience.
 
- 
+- As a user I want:
+    - To easily understand the purpose of the website.
+    - To clearly see what sections I can explore in the website.
+    - To easily reach each section.
+    - To know more about the company and the products.
+    - To know if I can visit the winery, the opening time and prices of each visit.
+    - To be able to book the experience through the website.
+    - To have confirmation that the booking was successful.
+    - To be able to contact the winery if there is any problem, or if I have any question.
+
 
 ## Features 
 
