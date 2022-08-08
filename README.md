@@ -100,7 +100,7 @@ The map:
 <details>
   <summary>Mobile</summary>
 
-   ![Mobile Wireframes](https://github.com/EliSacch/etruria/blob/main/media/mobile-home.jpg) ![Mobile Wireframes](https://github.com/EliSacch/etruria/blob/main/media/mobile-wines.jpg) ![Mobile Wireframes](https://github.com/EliSacch/etruria/blob/main/media/mobile-visit.jpg)
+   ![Mobile Wireframes](https://github.com/EliSacch/etruria/blob/main/media/mobile-wireframes.jpg) 
 
 </details>
 
