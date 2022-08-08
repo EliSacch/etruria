@@ -26,16 +26,19 @@ Choice of fonts:
 
 Choice of colours: 
 
-  - Primary color:           ![Primary color](https://github.com/EliSacch/etruria/blob/main/media/primary.jpg)
-  - Secondary color:         ![Primary color](media/secondary.jpg =250x)
-  - Darker secondary color:  ![Primary color](https://github.com/EliSacch/etruria/blob/main/media/darker-secondary.jpg){:width="200px"}
+  - Primary color:           
+  ![Primary color](https://github.com/EliSacch/etruria/blob/main/media/primary.jpg)
+  - Secondary color:         
+  ![Secondary color](https://github.com/EliSacch/etruria/blob/main/media/secondary.jpg)
+  - Darker secondary color:  
+  ![Darker secondary color](https://github.com/EliSacch/etruria/blob/main/media/darker-secondary.jpg)
 
 The map:
 
   - To accentuate the history of the lands where the wine is prduced, the map choosen for the footer is an old style map, showing the whole area once known as Etruria.
   - Users can still click on the address right next to it to open Google Maps.
 
-
+ ![Map](https://github.com/EliSacch/etruria/blob/main/media/tuscany-map.jpg)
 
 
 ### User Experience
