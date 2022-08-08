@@ -9,6 +9,42 @@ The website will be targeted toward wine lovers, and it will be useful to know m
 
 [See deployed website](https://elisacch.github.io/etruria/)
 
+## Table of content
+
+## Design and User Experience
+
+### Design
+
+The design of the website is clean and simple, to allow the content to pop up.
+
+Choice of fonts:
+
+  - Poiret one - This is the brand font, so it's used for the Logo, the Wines names and the tasting expeciences names.
+  - Montserrat (sans serif) - Used for the headings, the menu and the footer.
+  - Cormorant Garamond (serif) - As serif font is used for the smaller text (paragraphh content), to male it more readable.
+
+
+Choice of colours: 
+
+  - Primary color:           ![Primary color](https://github.com/EliSacch/etruria/blob/main/media/primary.jpg =250x)
+  - Secondary color:         ![Primary color](https://github.com/EliSacch/etruria/blob/main/media/secondary.jpg =250x)
+  - Darker secondary color:  ![Primary color](https://github.com/EliSacch/etruria/blob/main/media/darker-secondary.jpg =250x)
+
+The map:
+
+  - To accentuate the history of the lands where the wine is prduced, the map choosen for the footer is an old style map, showing the whole area once known as Etruria.
+  - Users can still click on the address right next to it to open Google Maps.
+
+
+### User Experience
+
+- As business owner I want:
+    - To introduce my family and my products to the users.
+    - A dedicated section to showcase my products.
+    - That users know 
+
+ 
+
 ## Features 
 
 There are three pages: Home page, Wines and Visit.
