@@ -11,31 +11,31 @@ The website will be targeted toward wine lovers, and it will be useful to know m
 
 ## Table of content
 
-[Design and User Experience](#design-and-user-experience)
+- [Design and User Experience](#design-and-user-experience)
   - [Design](#design)
   - [User Experience](#user-experience)
 
-[Features](#features)
+- [Features](#features)
   - [Navbar and footer](#navbar-and-footer)
   - [Home Page](#home-page)
   - [Wines](#wines)
   - [Visit](#visit)
 
-[Testing](#testing)
+- [Testing](#testing)
   - [Tests](#tests)
   - [Validator Testing](#validator-testing)
   - [Fixed bugs](#fixed-bugs)
   - [Unfixed bugs](#unfixed-bugs)
 
-[Deployment](#deployment)
+- [Deployment](#deployment)
   - [Live Website](#live-website)
   - [Local Deployment](#local-deployment)
 
-[Credits](#credits)
+- [Credits](#credits)
   - [Content](#content)
   - [Media](#media)
 
-[Technologies used](#technologies-used)
+- [Technologies used](#technologies-used)
 
 ## Design and User Experience
 
@@ -188,55 +188,87 @@ The homebage containg the information about the company. In particular it contai
 
 ## Testing 
 
-I have tested the performance in chrome, using lighthouse
-
- ![Performance](https://github.com/EliSacch/etruria/blob/main/media/performance.jpg)
-
 To test my website I have opened it on different devices, to see if it was working as expected.
 
-The GitHub page does not support submission of forms with POST method, so I had to change it into GET, just for the scope of this project.
+- Browser tested:
+  - Chrome
+  - Firefox
+  - Edge
+  - Brave
+  - Safari
 
-Browser tested:
-- Chrome
-- Firefox
-- Edge
-- Brave
-- Safari
-
-Operating systems:
-- Windows
-- Android
-- iOS
+- Operating systems:
+  - Windows
+  - Android
+  - iOS
 
 ### Tests
 
-|Action | Expected behavious | Result|
-|-------|--------------------|-------|
-|Copy url of the browser and paste it in browser. Press enter | Browser should load index.html | Pass |
-|Scale up the window | The contentent should not stretch over a certain size | Pass |
-|Scale down the window | The contentent should be visible without having to scroll horizontally | Pass |
-|Scale down under 840px width | The layout should switch from 2 to 1 column | Pass |
-|Scale down under 769px width | The top navigation bar should collapse into hamburger navbar | Pass |
-|Click or tap on hamburger menu icon | The navigation menu should open and the icon change into a close icon | Pass |
-|Click or tap on the close icon | The navigation menu should close and the icon change back into a hamburger menu icon | Pass |
-|Click or tap on the email address in the footer | It should open the device email client to send an email | Pass |
-|Click or tap on the LinkedIn icon in the footer | It should open LinkedIn in a new tab | Pass |
-|Click or tap on the Instagram icon in the footer | It should open Instagram in a new tab | Pass |
-|Click or tap on the Facebook icon in the footer | It should open Facebook in a new tab | Pass |
-|Click or tap on the "Wines" item in navigation bar | The Wines page should open | Pass |
-|Click or tap on the "Tudemis" item in the secondary navigation bar | It should bring me to the Tudemis section of wines page | Pass |
-|Click or tap on the "Etesiaca" item in the secondary navigation bar | It should bring me to the Etesiaca section of wines page | Pass |
-|Click or tap on the "Apiana" item in the secondary navigation bar | It should bring me to the Apiana section of wines page | Pass |
-|Click or tap on the "Visit" item in navigation bar | The Visit page should open | Pass |
-|Click or tap on the "Contact us" link right above the form | It should bring me to the contact section in the footer | Pass |
-|Submit the form without any value | Browser should inform me that "Name" is a required field, and form should not be submitted | Pass |
-|Submit the form without email address | Browser should inform me that "Email" is a required field, and form should not be submitted | Pass |
-|Submit the form with invalid email address | Browser should inform me that "Email" field must be of email format, and form should not be submitted | Pass |
-|Submit the form without choosing one radio option | Browser should inform me that is a required field, and form should not be submitted | Pass |
-|Submit the form without choosing a date | Browser should inform me that is a required field, and form should not be submitted | Pass |
-|Submit the form with all the required information | Form should be submitted and user should be redirected to a confirmation page | Pass |
-|Click or tap on the email address from the confirmation page | It should open the device email client to send an email | Pass |
-|Click or tap on the "Bring me home" link in the confirmation page | User should be redirected to index.html | Pass |
+  <details>
+  <summary>General</summary>
+
+  |Action | Expected behavious | Result|
+  |-------|--------------------|-------|
+  |Copy url of the browser and paste it in browser. Press enter | Browser should load index.html | Pass |
+  |Scale up the window | The contentent should not stretch over a certain size | Pass |
+  |Scale down the window | The contentent should be visible without having to scroll horizontally | Pass |
+  |Scale down under 840px width | The layout should switch from 2 to 1 column | Pass |
+
+  </details>
+
+  <details>
+  <summary>Navigation</summary>
+
+  |Action | Expected behavious | Result|
+  |-------|--------------------|-------|
+  |Scale down under 769px width | The top navigation bar should collapse into hamburger navbar | Pass |
+  |Click or tap on hamburger menu icon | The navigation menu should open and the icon change into a close icon | Pass |
+  |Click or tap on the close icon | The navigation menu should close and the icon change back into a hamburger menu icon | Pass |
+  |Click or tap on the "Wines" item in navigation bar | The Wines page should open | Pass |
+  |Click or tap on the "Tudemis" item in the secondary navigation bar | It should bring me to the Tudemis section of wines page | Pass |
+  |Click or tap on the "Etesiaca" item in the secondary navigation bar | It should bring me to the Etesiaca section of wines page | Pass |
+  |Click or tap on the "Apiana" item in the secondary navigation bar | It should bring me to the Apiana section of wines page | Pass |
+  |Click or tap on the "Visit" item in navigation bar | The Visit page should open | Pass |
+  |Click or tap on the "Contact us" link right above the form | It should bring me to the contact section in the footer | Pass |
+
+  </details>
+
+  <details>
+  <summary>Footer</summary>
+
+  |Action | Expected behavious | Result|
+  |-------|--------------------|-------|
+  |Click or tap on the email address in the footer | It should open the device email client to send an email | Pass |
+  |Click or tap on the address in the footer | It should open the address in Google Maps | Pass |
+  |Click or tap on the LinkedIn icon in the footer | It should open LinkedIn in a new tab | Pass |
+  |Click or tap on the Instagram icon in the footer | It should open Instagram in a new tab | Pass |
+  |Click or tap on the Facebook icon in the footer | It should open Facebook in a new tab | Pass |
+
+  </details>
+
+  <details>
+  <summary>Form</summary>
+
+  |Action | Expected behavious | Result|
+  |-------|--------------------|-------|
+  |Submit the form without any value | Browser should inform me that "Name" is a required field, and form should not be submitted | Pass |
+  |Submit the form without email address | Browser should inform me that "Email" is a required field, and form should not be submitted | Pass |
+  |Submit the form with invalid email address | Browser should inform me that "Email" field must be of email format, and form should not be submitted | Pass |
+  |Submit the form without choosing one radio option | Browser should inform me that is a required field, and form should not be submitted | Pass |
+  |Submit the form without choosing a date | Browser should inform me that is a required field, and form should not be submitted | Pass |
+  |Submit the form with all the required information | Form should be submitted and user should be redirected to a confirmation page | Pass |
+
+  </details>
+
+  <details>
+  <summary>Confirmation page only</summary>
+
+  |Action | Expected behavious | Result|
+  |-------|--------------------|-------|
+  |Click or tap on the email address from the confirmation page | It should open the device email client to send an email | Pass |
+  |Click or tap on the "Bring me home" link in the confirmation page | User should be redirected to index.html | Pass |  
+
+  </details>  
 
 ### Validator Testing
 
@@ -256,6 +288,12 @@ Operating systems:
 
 - In the booking form (visit page), the users are required to select the date for their experience. I could not restrict the dates dinamically using only HTML and CSS, so this results in users being able to select a date in the past.
 This bug can be easilly fixed with the support of JavaScript, but that would be outside of the scope of this project.
+
+### Performance
+
+I have tested the performance in chrome, using lighthouse
+
+ ![Performance](https://github.com/EliSacch/etruria/blob/main/media/performance.jpg)
 
 ## Deployment
 
