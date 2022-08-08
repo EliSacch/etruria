@@ -14,6 +14,7 @@ The website will be targeted toward wine lovers, and it will be useful to know m
 - [Design and User Experience](#design-and-user-experience)
   - [Design](#design)
   - [User Experience](#user-experience)
+  - [Wireframes](#wireframes)
 
 - [Features](#features)
   - [Navbar and footer](#navbar-and-footer)
@@ -26,6 +27,7 @@ The website will be targeted toward wine lovers, and it will be useful to know m
   - [Validator Testing](#validator-testing)
   - [Fixed bugs](#fixed-bugs)
   - [Unfixed bugs](#unfixed-bugs)
+  - [Performance](#performance)
 
 - [Deployment](#deployment)
   - [Live Website](#live-website)
@@ -86,6 +88,21 @@ The map:
     - To have confirmation that the booking was successful.
     - To be able to contact the winery if there is any problem, or if I have any question.
 
+### Wireframes
+
+<details>
+  <summary>Desktop</summary>
+
+   ![Desktop Wireframes](https://github.com/EliSacch/etruria/blob/main/media/desktop-home.jpg) ![Desktop Wireframes](https://github.com/EliSacch/etruria/blob/main/media/desktop-wines.jpg) ![Desktop Wireframes](https://github.com/EliSacch/etruria/blob/main/media/desktop-visit.jpg)
+
+</details>
+
+<details>
+  <summary>Mobile</summary>
+
+   ![Mobile Wireframes](https://github.com/EliSacch/etruria/blob/main/media/mobile-home.jpg) ![Mobile Wireframes](https://github.com/EliSacch/etruria/blob/main/media/mobile-wines.jpg) ![Mobile Wireframes](https://github.com/EliSacch/etruria/blob/main/media/mobile-visit.jpg)
+
+</details>
 
 ## Features 
 
