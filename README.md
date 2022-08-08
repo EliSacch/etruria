@@ -11,6 +11,32 @@ The website will be targeted toward wine lovers, and it will be useful to know m
 
 ## Table of content
 
+[Design and User Experience](#design-and-user-experience)
+  - [Design](#design)
+  - [User Experience](#user-experience)
+
+[Features](#features)
+  - [Navbar and footer](#navbar-and-footer)
+  - [Home Page](#home-page)
+  - [Wines](#wines)
+  - [Visit](#visit)
+
+[Testing](#testing)
+  - [Tests](#tests)
+  - [Validator Testing](#validator-testing)
+  - [Fixed bugs](#fixed-bugs)
+  - [Unfixed bugs](#unfixed-bugs)
+
+[Deployment](#deployment)
+  - [Live Website](#live-website)
+  - [Local Deployment](#local-deployment)
+
+[Credits](#credits)
+  - [Content](#content)
+  - [Media](#media)
+
+[Technologies used](#technologies-used)
+
 ## Design and User Experience
 
 ### Design
@@ -182,7 +208,7 @@ Operating systems:
 - Android
 - iOS
 
-Tests:
+### Tests
 
 |Action | Expected behavious | Result|
 |-------|--------------------|-------|
@@ -219,12 +245,21 @@ Tests:
 - CSS
   - No errors were found when passing the final version through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator)
 
+### Fixed Bugs
+
+- When I first deplyed the content on github pages, the form was giving an error.
+  This was due to the POST method, which is not supported in GitHub pages, so I changed it into GET method, just for the scope of this project.
+- When I first deployed the project it was not properly responsive on mobile, showing the content larger than the screen size and creating therefore an horizontal scroll bar. I found out it was a min-size set for the map image in the footer, that was causing the overflow.
+
+
 ### Unfixed Bugs
 
 - In the booking form (visit page), the users are required to select the date for their experience. I could not restrict the dates dinamically using only HTML and CSS, so this results in users being able to select a date in the past.
 This bug can be easilly fixed with the support of JavaScript, but that would be outside of the scope of this project.
 
 ## Deployment
+
+### Live Website
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
@@ -269,3 +304,8 @@ The live link can be found here - [Live Website](https://elisacch.github.io/etru
   - Tasting [Maksym Kaharlytskyi](https://unsplash.com/@qwitka?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
   - Black grapes [Keegan Houser](https://unsplash.com/@khouser01?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
+
+## Technologies used
+
+  - HTML
+  - CSS
