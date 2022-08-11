@@ -17,6 +17,7 @@
 </head>
 <body>
 
+<!-- Start of header -->
     <header>
         <div class="header">
             <div id="logo">
@@ -25,6 +26,7 @@
                 </h1>
             </div>
             <div id="nav">
+                <!-- Navigation bar for medium - large screens -->
                 <ul class="large-screen">
                     <li><a href="index.html" aria-label="Go to the home page">Home</a></li>
                     <li><a href="wines.html" aria-label="Go to the wines page">Wines</a></li>
@@ -33,6 +35,7 @@
             </div>
         </div>
 
+        <!-- Navigation bar for small screens (dropdown)-->
         <div>
             <input type="checkbox" id="toggler" name="toggler">
             <label for="toggler" class="toggle-menu small-screen">
@@ -58,9 +61,10 @@
                 </ul>
             </nav>
         </div>
-
     </header>
+<!-- End of header -->
 
+<!-- Start of page content -->
     <div id="visit" class="content" aria-labelledby="experiences price-and-time-table booking">
         <section id="visit-intro">
             <div> 
@@ -68,7 +72,7 @@
                 <h3>Come to meet us, and discover more about our story and products.</h3>
             </div>
         </section>
-
+<!-- Experience cards -->
         <section>
             <div id="experiences" aria-labelledby="barrel-tour wine-tasting vineyard-tour">
                 <div id="barrel-tour" class="card">
@@ -99,6 +103,7 @@
                 </div>
             </div>
         </section>
+<!-- Price table for larger screens-->
         <section id="price-and-time-table">
             <div class="table-container large-screen">
                 <table>
@@ -129,7 +134,7 @@
                 </table>
                 <span>*price per person</span>
             </div>
-
+<!-- Price table for smaller screens-->
             <div class="price-list small-screen">
                 <h3>The Barrel Room</h3>
                 <ul>
@@ -152,7 +157,7 @@
             </div>
 
             </section>
-
+<!-- Booking introduction-->
             <div class="booking-info">
                 <h3>You can book your experience by filling out the form below.</h3>
                 <p>Please, <a href="#contact" aria-label="Go to contact section">contact us</a> if you want to book an experience for more than 10 people, or if you need more information.</p>   
@@ -160,6 +165,7 @@
         <section id="booking">
             <div class="form-background">
                 <div class="form-container">
+<!-- Booking form-->
                     <form action="booked.html" method="GET">
                         <div class="input-group">
                             <span class="label-top">
@@ -227,11 +233,15 @@
                         </div>
                         <button onclick="booked.html" aria-label="Submit form to make reservation">Make reservation</button>
                     </form>
+<!-- End of booking form-->
                 </div>
             </div>
         </section>
     </div>
 
+<!-- End of page content -->
+
+<!-- Footer -->
     <footer aria-labelledby="map contact social">
         <div id="map">
             <img src="assets/images/tuscany-map.jpg" alt="Map of tuscany where you can find us.">

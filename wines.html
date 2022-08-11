@@ -16,7 +16,8 @@
   
 </head>
 <body>
-
+    
+<!-- Start of header -->
     <header>
         <div class="header">
             <div id="logo">
@@ -25,6 +26,7 @@
                 </h1>
             </div>
             <div id="nav">
+                <!-- Navigation bar for medium - large screens -->
                 <ul class="large-screen">
                     <li><a href="index.html" aria-label="Go to the home page">Home</a></li>
                     <li><a href="wines.html" aria-label="Go to the wines page" class="current-page">Wines</a></li>
@@ -33,6 +35,7 @@
             </div>
         </div>
 
+        <!-- Navigation bar for small screens (dropdown)-->
         <div>
             <input type="checkbox" id="toggler" name="toggler">
             <label for="toggler" class="toggle-menu small-screen">
@@ -58,9 +61,10 @@
                 </ul>
             </nav>
         </div>
-
     </header>
+<!-- End of header -->
 
+<!-- Start of page content -->
     <div id="wines" class="content" aria-labelledby="wines-intro tudemis etesiaca apiana">
         
         <section id="wines-intro">
@@ -94,7 +98,8 @@
                 </ul>
             </div>
         </section>
-
+        
+        <!-- Section that needs to be reversed on mobile -->
         <section id="etesiaca" class="reverse-wrap">
             <div class="wine-card text-content">
                 <h1>Etesiaca</h1>
@@ -129,7 +134,9 @@
         </section>
 
     </div>
+<!-- End of page content -->
 
+<!-- Footer -->
     <footer aria-labelledby="map contact social">
         <div id="map">
             <img src="assets/images/tuscany-map.jpg" alt="Map of tuscany where you can find us.">

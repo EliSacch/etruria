@@ -299,6 +299,7 @@ To test my website I have opened it on different devices, to see if it was worki
 - When I first deployed the content on github pages, the form was giving an error.
   This was due to the POST method, which is not supported in GitHub pages, so I changed it into GET method, just for the scope of this project.
 - When I first deployed the project it was not properly responsive on mobile, showing the content larger than the screen size and creating therefore an horizontal scroll bar. I found out it was a min-size set for the map image in the footer, that was causing the overflow.
+- The booking form background image was not showing correctly on iOS. Especially on iPhone it was showing overstretched and pixelated. I tried out several fixes and the solution I found was to change the background image for mobile. In iPhone it shows only the black backfround which looks better than the pixelated grapes image.
 
 ### Unfixed Bugs
 
