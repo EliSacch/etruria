@@ -655,7 +655,8 @@ footer > div {
     }
 
     .form-container::after {
-        background-size: auto 100vh;
+        background-image: url(../images/black-grapes-mobile.jpg);
+        --position: center;
     }
 
     #map, #map img {
