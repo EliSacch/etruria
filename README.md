@@ -69,7 +69,7 @@ The map:
  ![Map](https://github.com/EliSacch/etruria/blob/main/media/tuscany-map.jpg)
 
 
-### User Experience
+### User Stories
 
 - As business owner I want:
     - To introduce my family and my products to the users.
@@ -296,14 +296,13 @@ To test my website I have opened it on different devices, to see if it was worki
 
 ### Fixed Bugs
 
-- When I first deplyed the content on github pages, the form was giving an error.
+- When I first deployed the content on github pages, the form was giving an error.
   This was due to the POST method, which is not supported in GitHub pages, so I changed it into GET method, just for the scope of this project.
 - When I first deployed the project it was not properly responsive on mobile, showing the content larger than the screen size and creating therefore an horizontal scroll bar. I found out it was a min-size set for the map image in the footer, that was causing the overflow.
 
-
 ### Unfixed Bugs
 
-- In the booking form (visit page), the users are required to select the date for their experience. I could not restrict the dates dinamically using only HTML and CSS, so this results in users being able to select a date in the past.
+- In the booking form (visit page), the users are required to select the date for their experience. I could not restrict the dates dynamically using only HTML and CSS, so this results in users being able to select a date in the past.
 This bug can be easilly fixed with the support of JavaScript, but that would be outside of the scope of this project.
 
 ### Performance

@@ -383,8 +383,20 @@ table tr:nth-child(even) {
 }
 
 .form-background {
-    padding: 2em 1em;  
-    width: 100%;   
+    position: relative;
+    overflow: hidden;
+
+}
+
+.form-container::after {
+    content: '';
+    position:absolute;
+    z-index: -2;
+    top: 0;
+    left: 0;
+    height: 100%; 
+    width: 100%; 
+    max-width: 1200px;
     --position: bottom center;
     background: 
     var(--primary-color)
@@ -396,6 +408,7 @@ table tr:nth-child(even) {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    overflow: hidden;
 }
 
 .booking-info {
@@ -408,23 +421,17 @@ table tr:nth-child(even) {
     font-family: var(--sans-font);
 }
 
-.form-container {
-    width: 80%;
-    padding: 3em 2em;
-    margin: 2em auto;
-    color: var(--secondary-color);
-    border: 1px solid var(--primary-color);
-    backdrop-filter: blur(10px);
-    box-shadow: 0 0 40px var(--primary-color);
-}
-
 .form-container form {
     display: flex;
     flex-direction: column;
     gap: 1em;
-    width: 90%;
-    margin: 0 auto;
+    width: 80%;
+    padding: 10%; 
+    margin: 100px auto;
     color: var(--secondary-color);
+    border: 1px solid var(--primary-color);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 40px var(--primary-color);
 }
 
 .input-group {
@@ -643,14 +650,8 @@ footer > div {
         width: 90%;
     }
 
-    .form-background {  
-
-        --position: top 20px right;
-        background-image:  url(../images/black-grapes-mobile.jpg);
-    }
-
-    .form-container {
-        width: 98%;
+    .form-container form{
+        width: 96%;
     }
 
     #map, #map img {
