@@ -411,12 +411,6 @@ table tr:nth-child(even) {
     overflow: hidden;
 }
 
-@supports (-webkit-touch-callout: none) {
-    .form-container::after {
-        background-attachment: scroll;
-    }
-}
-
 .booking-info {
     text-align: center;
     width: 80%;
