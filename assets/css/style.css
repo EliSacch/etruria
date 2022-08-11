@@ -654,6 +654,10 @@ footer > div {
         width: 96%;
     }
 
+    .form-container::after {
+        background-size: auto 100vh;
+    }
+
     #map, #map img {
         max-width: 100%;
         min-width: 200px;
