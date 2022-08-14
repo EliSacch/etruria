@@ -308,7 +308,7 @@ This bug can be easilly fixed with the support of JavaScript, but that would be 
 
 ### Performance
 
-I have tested the performance in chrome, using lighthouse
+I have tested the performance in chrome, using lighthouse:
 
 <details>
   <summary> Desktop </summary>
@@ -328,6 +328,27 @@ I have tested the performance in chrome, using lighthouse
   - Booking confirmation page:
 
    ![Desktop - home page](https://github.com/EliSacch/etruria/blob/main/media/performance-booking-confirmation.png)
+
+</details>
+
+<details>
+  <summary> Mobile </summary>
+  
+  - Home page:
+
+   ![Desktop - home page](https://github.com/EliSacch/etruria/blob/main/media/performance-home-mobile.png)
+
+  - Wines page:
+
+   ![Desktop - home page](https://github.com/EliSacch/etruria/blob/main/media/performance-wines-mobile.png)
+
+  - Visit page: 
+
+   ![Desktop - home page](https://github.com/EliSacch/etruria/blob/main/media/performance-visit-mobile.png)
+
+  - Booking confirmation page:
+
+   ![Desktop - home page](https://github.com/EliSacch/etruria/blob/main/media/performance-booking-confirmation-mobile.png)
 
 </details>
 
