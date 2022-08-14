@@ -388,12 +388,7 @@ table tr:nth-child(even) {
 
 }
 
-.form-container::after {
-    content: '';
-    position:absolute;
-    z-index: -2;
-    top: 0;
-    left: 0;
+.form-background {
     height: 100%; 
     width: 100%; 
     max-width: 1200px;
@@ -654,7 +649,7 @@ footer > div {
         width: 96%;
     }
 
-    .form-container::after {
+    .form-background {
         background-image: url(../images/black-grapes-mobile.jpg);
         --position: center;
     }
