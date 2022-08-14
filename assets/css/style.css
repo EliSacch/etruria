@@ -613,6 +613,11 @@ footer > div {
 
 @media only screen and (max-width: 768px) {
 
+    #hero-image {
+        background: 
+        url(../images/hero-image-mobile.jpg);
+    }
+
     #quote {
         top: 50%;
         left: 5%;

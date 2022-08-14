@@ -310,7 +310,27 @@ This bug can be easilly fixed with the support of JavaScript, but that would be 
 
 I have tested the performance in chrome, using lighthouse
 
- ![Performance](https://github.com/EliSacch/etruria/blob/main/media/performance.jpg)
+<details>
+  <summary> Desktop </summary>
+  
+  - Home page:
+
+   ![Desktop - home page](https://github.com/EliSacch/etruria/blob/main/media/performance-home.png)
+
+  - Wines page:
+
+   ![Desktop - home page](https://github.com/EliSacch/etruria/blob/main/media/performance-wines.png)
+
+  - Visit page: 
+
+   ![Desktop - home page](https://github.com/EliSacch/etruria/blob/main/media/performance-visit.png)
+
+  - Booking confirmation page:
+
+   ![Desktop - home page](https://github.com/EliSacch/etruria/blob/main/media/performance-booking-confirmation.png)
+
+</details>
+
 
 ## Deployment
 
